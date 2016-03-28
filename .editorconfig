@@ -1,0 +1,24 @@
+# This file is for unifying the coding style for different editors and IDEs.
+# More information at http://EditorConfig.org
+
+# Implemented on Zenra project by: Malinda Wellalage
+# Date: 29/03/2016
+
+# No .editorconfig files above the root directory
+root = true
+
+# General configurations that apply to all file formats
+[*]
+indent_style = space
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Use 4 spaces for indentation in Java
+[*.java]
+indent_size = 4
+
+# Use 2 spaces for indentation in HTML, CSS, JS and Scala
+[*.{html,css,js,less}]
+indent_size = 2

@@ -18,7 +18,15 @@ public class HomeController extends Controller {
      * <code>GET</code> request with a path of <code>/</code>.
      */
     public Result index() {
-        return ok(index.render("Project Setup... (Zenra App)"));
+        return ok(main.render());
+    }
+
+    public Result page1() {
+        return ok(page_one.render());
+    }
+
+    public Result page2() {
+        return ok(page_two.render());
     }
 
 }

@@ -9,5 +9,5 @@ function MainCtrl() {
 
 
 angular
-  .module('inspinia')
+  .module('zenra')
   .controller('MainCtrl', MainCtrl)

@@ -25,7 +25,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider) {
 }
 
 angular
-  .module('inspinia')
+  .module('zenra')
   .config(config)
   .run(function($rootScope, $state) {
     $rootScope.$state = $state;
